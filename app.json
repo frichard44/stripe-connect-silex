@@ -1,0 +1,14 @@
+{
+  "name": "Stripe Connect Silex",
+  "description": "Example Silex app for signing users up to Stripe Connect",
+  "repository": "https://github.com/okjake/stripe-connect-silex",
+  "addons": [],
+  "env": {
+    "CLIENT_ID": {
+      "description": "Stripe connect client ID from https://dashboard.stripe.com/account/applications/settings"
+    },
+    "API_KEY": {
+      "description": "Stripe secret key from https://dashboard.stripe.com/account/apikeys"
+    }
+  }
+}
